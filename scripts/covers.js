@@ -1,4 +1,29 @@
 export const covers = {
+  HoustonCougars: {
+    title: "Houston Cougars",
+    date: new Date("2026-02-20"),
+    number: "020",
+    league: "College",
+    team: ["Houston Cougars"],
+    players: [
+      "Joseph Tugler",
+      "Milos Uzan",
+      "Kingston Flemings",
+      "Chris Cenac Jr.",
+      "Emanuel Sharp",
+      "Isiah Harwell",
+    ],
+    photos: 7,
+  },
+  JazzyDavidson: {
+    title: "Jazzy Davidson",
+    date: new Date("2026-02-18"),
+    number: "019",
+    league: "College",
+    team: ["USC"],
+    players: ["Jazzy Davidson"],
+    photos: 7,
+  },
   SarahStrong: {
     title: "Sarah Strong",
     date: new Date("2026-02-12"),
