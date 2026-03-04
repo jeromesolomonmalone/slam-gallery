@@ -1,4 +1,4 @@
-const changedMyMind = {
+const other = {
   HoustonCougars: {
     title: "Houston Cougars",
     date: new Date("2026-02-20"),
