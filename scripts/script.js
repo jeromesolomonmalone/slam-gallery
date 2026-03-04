@@ -1,4 +1,4 @@
-import { covers } from './covers.js';
+import { covers } from "./covers.js";
 
 const basicLink = "https://shoneal.github.io/slam-gallery/images/covers/";
 
@@ -190,14 +190,7 @@ document.addEventListener("click", (event) => {
 document.addEventListener("keydown", closeAllPopupsOnEsc); // Нажатие на ESC
 
 // Всё, что касается попапа с чекбоксами
-const uniqueLeagues = [
-  "NBA",
-  "WNBA",
-  "College",
-  "High School",
-  "Europe",
-  "Other",
-];
+const uniqueLeagues = ["NBA", "WNBA", "College", "Europe"];
 function getTopPlayers(covers, topCount = 3) {
   const playerCount = Object.values(covers).reduce((acc, cover) => {
     cover.players.forEach((p) => (acc[p] = (acc[p] || 0) + 1));
