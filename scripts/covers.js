@@ -1,4 +1,13 @@
 export const covers = {
+  KonKnueppel: {
+    title: "Kon Knueppel",
+    date: new Date("2026-03-27"),
+    number: "261",
+    league: "NBA",
+    team: ["Charlotte Hornets"],
+    players: ["Kon Knueppel"],
+    photos: 7,
+  },
   SarahStrong: {
     title: "Sarah Strong",
     date: new Date("2026-02-12"),
